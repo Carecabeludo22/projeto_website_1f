@@ -1,0 +1,168 @@
+/* ====== ESTILO GERAL ====== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #4d0000;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #790000;
+    border-radius: 5px;
+}
+
+/* ====== HOME ====== */
+.banner {
+    background-image: url(../images/Banner.webp);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px black;
+}
+
+.banner-container {
+    text-align: center;
+}
+
+/* ====== INFORMAÇÕES ====== */
+.informacoes {
+    padding: 50px;
+    background-color: #770000;
+}
+
+.informacoes h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+/* ====== GALERIA ====== */
+.galeria {
+    padding: 50px;
+    text-align: center;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagens img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.05);
+}
+
+/* ====== MÍDIA / MAPA ====== */
+.midia {
+    background-color: #7a0101;
+    padding: 50px;
+    text-align: center;
+}
+
+.midia-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* ====== RODAPÉ ====== */
+.rodape {
+    background-color: #4d0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.detalhe-personagem {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    background-color: #111;
+}
+
+.imagem-personagem {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.descricao {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.galeria-secundaria {
+    text-align: center;
+    padding: 40px;
+    background-color: #1a1a1a;
+}
+
+.galeria-secundaria .imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria-secundaria img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-secundaria img:hover {
+    transform: scale(1.05);
+}
+
